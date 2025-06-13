@@ -1,0 +1,2 @@
+curl -X POST -H "x-access-key: $TOKEN" -H "Content-Type: application/json"
+       https://api.tenderly.co/api/v1/actions/b51602d5-2ec2-4a42-bdfb-acc8bc260898/webhook -d '{"exampleKey": "exampleValue"}'
